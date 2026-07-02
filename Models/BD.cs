@@ -6,49 +6,31 @@ using TP_Album_Aguilera_Perez_Tortosa.Models;
 
 public static class BD
 {
-    private static string _connectionString = @"Server=localhost; DataBase=TurnosDB;Integrated Security=True;TrustServerCertificate=True;";
+    private static string _connectionString = @"Server=localhost; DataBase=Album;Integrated Security=True;TrustServerCertificate=True;";
 
-    public static List<Turno> ObtenerTurnos()
+    public static List<Jugador> ObtenerJugadores()
     {
-        List<Turno> turnos = new List<Turno>();
+        List<Jugador> jugadores = new List<Jugador>();
         using(SqlConnection conn = new SqlConnection(_connectionString))
         {
-            string query = "SELECT * FROM Turnos ORDER BY FechaHora ASC";
-            turnos = conn.Query<Turno>(query).ToList();
+            string query = "SELECT * FROM Jugadores";
+            jugadores = conn.Query<Jugador>(query).ToList();
         }
-        return turnos;
+        return jugadores;
 
     }
 
-    public static void AgregarTurno(Turno t)
+    public static List<Figurita> ObtenerFiguritas()
     {
-        string query = "INSERT INTO Turnos (NombreCliente, Servicio, FechaHora, Estado)VALUES (@pNombreCliente, @pServicio, @pFechaHora, @pEstado)";
-
+        List<Figurita> figuritas = new List<Figurita>();
         using(SqlConnection conn = new SqlConnection(_connectionString))
         {
-            conn.Execute(query, new {pNombreCliente = t.NombreCliente, pServicio = t.Servicio, pFechaHora = t.FechaHora, pEstado = t.Estado});
+            string query = "SELECT * FROM Figuritas";
+            figuritas = conn.Query<Figurita>(query).ToList();
         }
+        return figuritas;
+
     }
 
 
-      
-    public static void CambiarEstado(int id, string nuevoEstado)
-    {
-        string query = "UPDATE Turnos SET Estado = @pNuevoEstado WHERE Id = @pId";
-
-        using(SqlConnection conn = new SqlConnection(_connectionString))
-        {
-            conn.Execute(query, new {pNuevoEstado = nuevoEstado, pId = id});
-        }
-    }
-
-    public static void CambiarFecha(int id, DateTime nuevaFecha)
-    {
-        string query = "UPDATE Turnos SET FechaHora = @pNuevaFecha WHERE Id = @pId";
-
-        using(SqlConnection conn = new SqlConnection(_connectionString))
-        {
-            conn.Execute(query, new {pNuevaFecha = nuevaFecha, pId = id});
-        }
-    }
 }
