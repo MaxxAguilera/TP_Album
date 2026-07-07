@@ -13,7 +13,7 @@ public static class BD
         List<Jugador> jugadores = new List<Jugador>();
         using(SqlConnection conn = new SqlConnection(_connectionString))
         {
-            string query = "SELECT * FROM Jugadores";
+            string query = "SELECT nombre, color, numCamiseta, idSeleccion, cantObtenida, Jugadores.id FROM Jugadores inner join Figuritas idJugador = Jugadores.id";
             jugadores = conn.Query<Jugador>(query).ToList();
         }
         return jugadores;
@@ -32,5 +32,15 @@ public static class BD
 
     }
 
+    public static List<Seleccion> ObtenerSelecciones()
+    {
+        List<Seleccion> selecciones = new List<Seleccion>();
+        using(SqlConnection conn = new SqlConnection(_connectionString))
+        {
+            string query = "SELECT * FROM Selecciones";
+            selecciones = conn.Query<Seleccion>(query).ToList();
+        }
+        return selecciones;
 
+    }
 }

@@ -8,12 +8,12 @@ public class Figurita
     public bool pegada{get;set;} 
 
 
-    public Figurita(int id, int idJug, int cantObtenida, bool peg)
+    public Figurita(int id, int idJugador, int cantObtenida, bool pegada)
     {
         this.id = id;
-        this.idJugador = idJug;
+        this.idJugador = idJugador;
         this.cantObtenida = cantObtenida;
-        this.pegada = peg;
+        this.pegada = pegada;
     }
 
 }

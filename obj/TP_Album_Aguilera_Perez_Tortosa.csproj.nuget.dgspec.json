@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj": {}
+    "C:\\Users\\49628407\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj": {}
   },
   "projects": {
-    "C:\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj": {
+    "C:\\Users\\49628407\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj",
+        "projectUniqueName": "C:\\Users\\49628407\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj",
         "projectName": "TP_Album_Aguilera_Perez_Tortosa",
-        "projectPath": "C:\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj",
-        "packagesPath": "C:\\Users\\50235170\\.nuget\\packages\\",
-        "outputPath": "C:\\TP_Album\\obj\\",
+        "projectPath": "C:\\Users\\49628407\\TP_Album\\TP_Album_Aguilera_Perez_Tortosa.csproj",
+        "packagesPath": "C:\\Users\\49628407\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49628407\\TP_Album\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\50235170\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49628407\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -22,6 +22,18 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    public IActionResult Album()
+    {
+        List<Seleccion> selecciones = BD.ObtenerSelecciones();
+        List<Jugador> jugadores = BD.ObtenerJugadores();
+        List<Figurita> figuritas = BD.ObtenerFiguritas();
+        
+        ViewBag.selecciones = selecciones;
+        ViewBag.jugadores = jugadores;
+        ViewBag.figuritas = figuritas;
+        return View();
+    }
 
     public IActionResult Privacy()
     {
