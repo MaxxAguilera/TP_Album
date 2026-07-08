@@ -13,7 +13,7 @@ public static class BD
         List<Jugador> jugadores = new List<Jugador>();
         using(SqlConnection conn = new SqlConnection(_connectionString))
         {
-            string query = "SELECT nombre, color, numCamiseta, idSeleccion, cantObtenida, Jugadores.id FROM Jugadores inner join Figuritas idJugador = Jugadores.id";
+            string query = "SELECT J.nombre, J.color, J.numCamiseta, J.idSeleccion, J.id, F.cantObtenida FROM Jugadores J LEFT JOIN Figuritas F ON F.idJugador = J.id";
             jugadores = conn.Query<Jugador>(query).ToList();
         }
         return jugadores;
@@ -41,6 +41,14 @@ public static class BD
             selecciones = conn.Query<Seleccion>(query).ToList();
         }
         return selecciones;
+    }
 
+    public static void InsertarJugador(Jugador j)
+    {
+        using (SqlConnection conn = new SqlConnection(_connectionString))
+        {
+            string query = "UPDATE Figuritas SET cantObtenida = cantObtenida + 1 WHERE idJugador = @idDelJugador";
+            conn.Execute(query, new { idDelJugador = j.id });
+        }
     }
 }

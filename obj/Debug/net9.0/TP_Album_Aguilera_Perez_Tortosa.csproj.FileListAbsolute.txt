@@ -245,8 +245,6 @@ C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\6jqfffkfv8-xthblr6lgs.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\rf6uigvaca-garoic9is1.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\jbnwtzxmum-03y0chiann.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\h79k13w8rd-7vkyfpybci.gz
-C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\63sp0gsumz-6a19z2dxyn.gz
-C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\jt0g40ung2-58u4ci9jng.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\1hkmthspt0-g22w16cfwh.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\0sduis7m85-a6dtdbzux1.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\vvu7i7p6bt-rq6r6ovmda.gz
@@ -261,13 +259,11 @@ C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\mikvktspzc-516ymyfe7y.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\i1o837l47n-f6pfknr42a.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\zph4ay625g-dttc0ykpui.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\yu85y4fn84-w6tysxk98d.gz
-C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ztsp3vprc1-n89vr25q40.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\womb8f3sab-ig3ymkppxn.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\6gogri6x67-f9m4dyqzgf.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\8w3amnccvi-9vxjlykneo.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\6andu79013-pezc1948di.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\oi177dhht1-4a0y6645xc.gz
-C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\h0kb56bjtd-4edj96wesq.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\oov7hjxcox-aadqzmnxhn.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\k8lsc354ju-m3x4wnyq1k.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\lddkv46iq6-xtxxf3hu2r.gz
@@ -342,3 +338,7 @@ C:\Users\49628407\TP_Album\obj\Debug\net9.0\refint\TP_Album_Aguilera_Perez_Torto
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\TP_Album_Aguilera_Perez_Tortosa.pdb
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\TP_Album_Aguilera_Perez_Tortosa.genruntimeconfig.cache
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\ref\TP_Album_Aguilera_Perez_Tortosa.dll
+C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\a9mivv0ioe-6a19z2dxyn.gz
+C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ms7kit39e1-58u4ci9jng.gz
+C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\gcjvet6rs8-n89vr25q40.gz
+C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\rreb567xg8-4edj96wesq.gz

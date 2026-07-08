@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var j in ViewBag.jugadores){
+    <img src="~/images/jugadores/@(j.nombre.ToLower()).svg">
+    <label>Cantidad: @j.cantObtenida</label>
+}
