@@ -37,6 +37,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Reinicio(){
+        BD.ReiniciarFiguritas();
+        return RedirectToAction("Album");
+    }
+
     public IActionResult Privacy()
     {
         return View();

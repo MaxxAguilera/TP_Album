@@ -43,12 +43,20 @@ public static class BD
         return selecciones;
     }
 
-    public static void InsertarJugador(Jugador j)
+    public static void InsertarJugador(int id)
     {
         using (SqlConnection conn = new SqlConnection(_connectionString))
         {
             string query = "UPDATE Figuritas SET cantObtenida = cantObtenida + 1 WHERE idJugador = @idDelJugador";
-            conn.Execute(query, new { idDelJugador = j.id });
+            conn.Execute(query, new { idDelJugador = id });
+        }
+    }
+
+    public static void ReiniciarFiguritas(){
+        using (SqlConnection conn = new SqlConnection(_connectionString))
+        {
+            string query = "UPDATE Figuritas SET cantObtenida = 0";
+            conn.Execute(query);
         }
     }
 }

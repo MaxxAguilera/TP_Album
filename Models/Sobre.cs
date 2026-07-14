@@ -15,7 +15,7 @@ public static class Sobre
             if (!jugadoresSobre.Contains(jugadores[indiceAleatorio]))
             {
                 jugadoresSobre.Add(jugadores[indiceAleatorio]);
-                BD.InsertarJugador(jugadores[indiceAleatorio]);
+                BD.InsertarJugador(jugadores[indiceAleatorio].id);
             }
         }
         return jugadoresSobre;

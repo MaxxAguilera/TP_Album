@@ -29,3 +29,26 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.Album{
+  display: flex;
+  width: 92%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2%;
+  margin-left: 4%;
+}
+
+.Album div > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.Album > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.Album div div img{
+  width: 100%;
+}

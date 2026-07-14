@@ -2,13 +2,32 @@
     ViewData["Title"] = "Album";
 }
 
-@foreach (var j in ViewBag.jugadores){
-    <img src="~/images/jugadores/@(j.nombre.ToLower()).svg">
-    <label>Cantidad: @j.cantObtenida</label>
-}
-<form action="@Url.Action("AbrirSobre", "Home")">
-    <button type="submit">Sobre</button>
-</form>
-<form action="@Url.Action("Index", "Home")">
-    <button type="submit">Volver</button>
-</form> 
+<section class="Album">
+    <div>
+        @foreach (var j in ViewBag.jugadores){
+            @if(j.cantObtenida == 0){
+                <div>
+                    <img src="~/images/jugadores/figuritaFaltante.png">
+                    <label>Cantidad: @j.cantObtenida</label>
+                </div>
+            }
+            else{
+                <div>
+                    <img src="~/images/jugadores/@(j.nombre.ToLower()).svg">
+                    <label>Cantidad: @j.cantObtenida</label>
+                </div>
+            }
+        }
+    </div>
+    <div>
+        <form action="@Url.Action("AbrirSobre", "Home")">
+            <button type="submit">Sobre</button>
+        </form>
+        <form action="@Url.Action("Index", "Home")">
+            <button type="submit">Volver</button>
+        </form> 
+        <form action="@Url.Action("Reinicio", "Home")">
+            <button type="submit">Reiniciar figuritas</button>
+        </form>
+    </div>
+</section>
