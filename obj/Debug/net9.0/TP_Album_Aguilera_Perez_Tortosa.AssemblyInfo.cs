@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_Album_Aguilera_Perez_Tortosa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fedbfdb88898e07281c428c8b8d4e6b8b4098a61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ecce29d939bec98c816104ae1397e46efb97f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_Album_Aguilera_Perez_Tortosa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_Album_Aguilera_Perez_Tortosa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

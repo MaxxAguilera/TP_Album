@@ -2,8 +2,9 @@
     ViewData["Title"] = "Album";
 }
 
-<section class="Album">
-    <div>
+<section class="Contenedor">
+    <h1>Album</h1>
+    <div class = "Figuritas">
         @foreach (var j in ViewBag.jugadores){
             @if(j.cantObtenida == 0){
                 <div>
@@ -19,12 +20,12 @@
             }
         }
     </div>
-    <div>
+    <div class= "Navegador">
         <form action="@Url.Action("AbrirSobre", "Home")">
             <button type="submit">Sobre</button>
         </form>
         <form action="@Url.Action("Index", "Home")">
-            <button type="submit">Volver</button>
+            <button type="submit">Menú principal</button>
         </form> 
         <form action="@Url.Action("Reinicio", "Home")">
             <button type="submit">Reiniciar figuritas</button>

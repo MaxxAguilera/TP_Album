@@ -238,7 +238,6 @@ C:\Users\49628407\TP_Album\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\scopedcss\bundle\TP_Album_Aguilera_Perez_Tortosa.styles.css
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\scopedcss\projectbundle\TP_Album_Aguilera_Perez_Tortosa.bundle.scp.css
-C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ti1tm7u7sh-b9sayid5wm.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ofc5hiujae-61n19gt1b8.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\mzmjup8lgq-f0noe0pzt9.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\6jqfffkfv8-xthblr6lgs.gz
@@ -342,3 +341,4 @@ C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\a9mivv0ioe-6a19z2dxyn.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ms7kit39e1-58u4ci9jng.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\gcjvet6rs8-n89vr25q40.gz
 C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\rreb567xg8-4edj96wesq.gz
+C:\Users\49628407\TP_Album\obj\Debug\net9.0\compressed\ti1tm7u7sh-12dfdf1uwx.gz
