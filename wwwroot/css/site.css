@@ -19,7 +19,6 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-image: url("~/images/fondo.avif");
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -85,9 +84,21 @@ body {
 .Eleccion form{
   display: flex;
   flex-direction: column;
+  width: 32%;
 }
 
-.Eleccion form img{
-  width: 400px;
-  height: 400px;
+.Eleccion form button{
+  background-image: url(/images/album.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 40vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.Eleccion form .Sobre{
+  background-image: url(/images/sobre.png);
 }
